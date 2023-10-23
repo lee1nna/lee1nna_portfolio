@@ -1,13 +1,19 @@
 .about-me-wrap {
     width: 100%;
     height: 100vh;
+    position: relative;
     display: flex;
     justify-content: center;
     /* background-color: aqua; */
 }
 
 .about-me {
-    padding: 145px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 130px;
+    /* align-items: center; */
+    /* justify-content: center; */
     box-sizing: border-box;
     text-align: center;
     width: 100%;
@@ -15,21 +21,50 @@
     max-width: 1040px;
 }
 
+.about-me-icon__wrap {
+    position: relative;
+    background-color: #FAD0C9;
+    border-radius: 50%;
+}
+
 .about-me__icon {
+    position: relative;
+    left: 8px;
+    top: 8px;
     width: 200px;
     height: auto;
 }
 
-.about-me__title {
-    font-size: 38px;
-    font-weight: bolder;
+.about-me-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-btn__wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.about-me-intro__btn {
+    width: auto;
+    border-radius: 40px;
+    border: 0;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .about-me__hr {
-    width: 30px;
+    width: 120px;
     margin-top: 20px;
     margin-bottom: 10px;
-    border: 2px solid orange;
+    border: 2px solid #FAD0C9;
 }
 
 .about-me__sub {
@@ -42,14 +77,11 @@
     margin-top: 30px;
     padding: 15px 30px;
     border-radius: 40px;
+    position: relative;
+    left: calc(50% - 75px);
+    width: 150px;
     border: 0;
-    background-color: rgb(255, 193, 100);
     color: #fff;
-    cursor: pointer;
     font-weight: bold;
     font-size: 18px;
-}
-
-.about-me__more-btn:hover {
-    background-color: rgb(255, 173, 50);
 }

@@ -3,3 +3,30 @@ body {
   height: 100%;
   top: 0;
 }
+
+button {
+  cursor: pointer;
+  background-color: #6E6E6D;
+}
+
+button:hover {
+  background-color: #FAD0C9;
+  color: #6E6E6D;
+}
+
+.title {
+  box-sizing: border-box;
+  font-size: 45px;
+  font-weight: bold;
+  width: 100%;
+  color: #FAD0C9;
+  padding: 0 50px;
+  text-shadow: 2px 2px 2px #6E6E6D;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.txt-line__pink {
+  color: #ff674c;
+  font-weight: bold;
+}
