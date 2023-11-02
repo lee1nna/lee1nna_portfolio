@@ -1,0 +1,85 @@
+.experience-wrap {
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.experience-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.experiences {
+    margin-top: 130px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+    max-width: 1040px;
+}
+
+.experience {
+    border: 5px solid #FAD0C9;
+    padding: 20px;
+    border-radius: 15px;
+    height: fit-content;
+    /* width: 100%; */
+    margin: 20px 30px;
+    background-color: #fff;
+}
+
+.experience-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    color: #333;
+}
+
+.experience-period {
+    color: #a0a0a0;
+}
+
+.content-wrap {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-area {
+    width: 50%;
+}
+
+.right-area {
+    width: 50%;
+    text-align: left;
+    line-height: 25px;
+}
+
+.left-area > img {
+    height: 200px;
+    width: auto;
+}
+
+.skill-stack {
+    display: flex;
+}
+
+.hr {
+    width: 1px solid #e5e5e5;
+    margin-top: 20px;
+}
+
+.label-box {
+    /* width: 30%; */
+}
+
+.label {
+    white-space: nowrap;
+    min-width: 80px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.skill-row {
+    display: flex;
+}

@@ -9,6 +9,7 @@ const Header = () => {
           <li className={styles["header-li"]}>About Me</li>
           <li className={styles["header-li"]}>Skills</li>
           <li className={styles["header-li"]}>Experience</li>
+          <li className={styles["header-li"]}>Career</li>
           <li className={styles["header-li"]}>Contact</li>
         </div>
       </ul>
