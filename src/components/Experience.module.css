@@ -45,6 +45,26 @@
     margin-top: 20px;
 }
 
+@media (max-width: 875px) {
+    .content-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-area {
+        width: 100% !important;
+    }
+
+    .left-area > img {
+        height: 150px !important;
+        margin-right: 10px;
+    }
+    
+    .right-area {
+        width: 100% !important;
+    }
+}
+
 .left-area {
     width: 50%;
 }

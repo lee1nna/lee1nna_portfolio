@@ -41,6 +41,18 @@
     justify-content: center;
 }
 
+@media (max-width: 875px) {
+    .about-me-intro {
+        flex-direction: column;
+    }
+
+    .intro-btn__wrap {
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+}
+
+
 .intro-btn__wrap {
     display: flex;
     flex-direction: column;

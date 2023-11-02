@@ -1,9 +1,24 @@
 .skills-wrap {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     /* background-color: aqua; */
+}
+
+@media (max-width: 875px) {
+    .skills-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        margin-right: 0 !important;
+    }
+
+    .skill2 {
+        margin-top: 20px;
+    }
 }
 
 .skills {
@@ -23,6 +38,15 @@
     width: 230px;
     margin-right: 15px;
     background-color: #fff;
+}
+
+.skill2 {
+    height: 200px !important;
+}
+
+.skill3 {
+    margin-top: 20px;
+    height: 250px !important;
 }
 
 .skill-title {
