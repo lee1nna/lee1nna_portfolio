@@ -2,7 +2,7 @@ import styles from "./Career.module.css";
 
 const Experience = () => {
   return (
-    <div className={styles["career-wrap"]}>
+    <div id='career' className={styles["career-wrap"]}>
       <div className={styles["career"]}>
         <div className="title">Career.</div>
         <div className={styles["career-wrap"]}>
@@ -35,10 +35,10 @@ const Experience = () => {
             </div>
             <div className={styles["company-project"]}>
               <br />
-              <b>| 어드민 스타터 + 사내 공통 컴포넌트</b>
+              <b>📌 어드민 스타터 + 사내 공통 컴포넌트</b>
               <br />
               <div className={styles["period"]}>
-              2019.02 ~ 2021.02
+              🗓 2019.02 ~ 2021.02
               </div>
               <ul>
                 <li>어드민 페이지의 빠른 개발을 위해 주요 기능 모듈화</li>
@@ -49,10 +49,10 @@ const Experience = () => {
             </div>
             <div className={styles["company-project"]}>
               <br />
-              <b>| CCTV 관제 웹페이지</b>
+              <b>📌 CCTV 관제 웹페이지</b>
               <br />
               <div className={styles["period"]}>
-              2021.12 ~ 2022.01
+              🗓 2021.12 ~ 2022.01
               </div>
               <ul>
                 <li>CCTV 장비 관리 및 설치된 CCTV를 관제하는 웹페이지 개발</li>
@@ -62,10 +62,10 @@ const Experience = () => {
             </div>
             <div className={styles["company-project"]}>
               <br />
-              <b>| 설문 관리 어드민 및 온라인 설문 서비스</b>
+              <b>📌 설문 관리 어드민 및 온라인 설문 서비스</b>
               <br />
               <div className={styles["period"]}>
-              2023.01 ~ 2023.05
+              🗓 2023.01 ~ 2023.05
               </div>
               <ul>
                 <li>메인 개발자로 참여하여 프로젝트 구조 설계, 공통 컴포넌트 개발 및 가이드 페이지 제작</li>
@@ -75,10 +75,10 @@ const Experience = () => {
             </div>
             <div className={styles["company-project"]}>
               <br />
-              <b>| 소상공인을 위한 간편 키오스크 설치 서비스</b>
+              <b>📌 소상공인을 위한 간편 키오스크 설치 서비스</b>
               <br />
               <div className={styles["period"]}>
-              2022.02 ~ 2022.03
+              🗓 2022.02 ~ 2022.03
               </div>
               <ul>
                 <li>Firebase를 연동해 Firebase Storage에 저장된 컨텐츠 이미지 및 영상 조회 기능 개발</li>
@@ -87,10 +87,10 @@ const Experience = () => {
             </div>
             <div className={styles["company-project"]}>
               <br />
-              <b>| 연주자 프로필 및 포트폴리오 공유 웹 서비스</b>
+              <b>📌 연주자 프로필 및 포트폴리오 공유 웹 서비스</b>
               <br />
               <div className={styles["period"]}>
-              2022.01 ~ 2022.06
+              🗓 2022.01 ~ 2022.06
               </div>
               <ul>
                 <li>Headerless CMS strapi를 사용하여 백엔드를 대체 하면서 DB 설계 및 엔티티 도출 참여</li>
@@ -100,10 +100,10 @@ const Experience = () => {
             </div>
             <div className={styles["company-project"]}>
               <br />
-              <b>| 공무원연금공단 신원인증 모바일 플랫폼</b>
+              <b>📌 공무원연금공단 신원인증 모바일 플랫폼</b>
               <br />
               <div className={styles["period"]}>
-              2022.01 ~ 2022.06
+              🗓 2022.01 ~ 2022.06
               </div>
               <ul>
                 <li>파일 빌드 후 안드로이드 스튜디오에 포팅해 apk로 변환</li>

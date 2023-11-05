@@ -4,15 +4,17 @@ import Experience from './components/Experience';
 import Career from './components/Career';
 import Header from './components/Header';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='root'>
       <Header/>
       <AboutMe/>
       <Skills/>
       <Career/>
       <Experience/>
+      <Contact/>
     </div>
   );
 }

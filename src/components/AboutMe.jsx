@@ -2,7 +2,7 @@ import styles from "./AboutMe.module.css";
 
 const AboutMe = () => {
   return (
-    <div className={styles["about-me-wrap"]}>
+    <div id="about-me" className={styles["about-me-wrap"]}>
       <div id="about-me" className={styles["about-me"]}>
         <div className="title">About Me.</div>
         <div className={styles["about-me-intro"]}>
@@ -38,7 +38,9 @@ const AboutMe = () => {
           단순히 디자인을 구현하는 것 이상의 역할을 수행하고자 노력합니다.{" "}
           <br />
         </div>
-        <button className={styles["about-me__more-btn"]}>더 알아보기</button>
+        <a className={styles["about-me__link"]} href="#skill">
+          <button className={styles["about-me__more-btn"]}>더 알아보기</button>
+        </a>
       </div>
     </div>
   );
