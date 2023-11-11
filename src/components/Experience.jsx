@@ -11,8 +11,8 @@ const Experience = () => {
             <div className={styles["experience-period"]}>2021.06 ~ 2021.08</div>
             <div className={styles["content-wrap"]}>
               <div className={styles["left-area"]}>
-                <img src="/assets/dnd_iterview_img.png" alt="" />
-                <img style={{marginTop: '15px'}} src="/assets/dnd_iterview_img2.png" alt="" />
+                <img src="./assets/dnd_iterview_img.png" alt="" />
+                <img style={{marginTop: '15px'}} src="./assets/dnd_iterview_img2.png" alt="" />
               </div>
               <div className={styles["right-area"]}>
                 DND라는 대외활동에 참여하여 진행한 프로젝트입니다. <br />
@@ -63,7 +63,7 @@ const Experience = () => {
             <div className={styles["experience-period"]}>2020.03 ~ 2020.11</div>
             <div className={styles["content-wrap"]}>
               <div className={styles["left-area"]}>
-                <img src="/assets/toontooni.png" alt="" />
+                <img src="./assets/toontooni.png" alt="" />
               </div>
               <div className={styles["right-area"]}>
                 대학교 졸업작품으로 진행한 프로젝트입니다. <br />

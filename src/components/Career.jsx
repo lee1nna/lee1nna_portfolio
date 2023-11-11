@@ -8,7 +8,7 @@ const Experience = () => {
         <div className={styles["career-wrap"]}>
           <div className={styles["left-area"]}>
             <div className={styles["company-logo"]}>
-              <img src="/assets/weeds.png" alt="" />
+              <img src="./assets/weeds.png" alt="" />
             </div>
           </div>
           <div className={styles["right-area"]}>

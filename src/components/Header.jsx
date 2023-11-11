@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         <img
           className={styles["hamburger"]}
-          src="/assets/hamburger.png"
+          src="./assets/hamburger.png"
           alt=""
           onClick={handleMenu}
         />

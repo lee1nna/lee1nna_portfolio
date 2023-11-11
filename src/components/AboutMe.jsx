@@ -7,12 +7,9 @@ const AboutMe = () => {
         <div className="title">About Me.</div>
         <div className={styles["about-me-intro"]}>
           <div className={styles["about-me-icon__wrap"]}>
-            {/* <div className={styles["about-me-icon__gif"]}>
-
-            </div> */}
             <img
               className={styles["about-me__icon"]}
-              src="/assets/my_icon.png"
+              src="./assets/my_icon.png"
               alt=""
             />
           </div>
