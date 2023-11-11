@@ -1,7 +1,7 @@
 {
   "name": "lee1nna_portfolio",
   "version": "0.1.0",
-  "homepage": "https://leehanna-portfolio",
+  "homepage": "https://lee1nna.github.io/lee1nna_portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
