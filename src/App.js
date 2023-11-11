@@ -4,7 +4,7 @@ import Experience from './components/Experience';
 import Career from './components/Career';
 import Header from './components/Header';
 import Skills from './components/Skills';
-import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Skills/>
       <Career/>
       <Experience/>
-      <Contact/>
+      <Footer/>
     </div>
   );
 }

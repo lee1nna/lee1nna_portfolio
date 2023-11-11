@@ -38,19 +38,19 @@ const Experience = () => {
                 <div className={styles["skill-stack"]}>
                   <div className={styles["label-box"]}>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 담당한 기능</div>
+                        <div className={styles["label"]}>• 담당한 기능</div>
                         <div className={styles["skill"]}>소셜 로그인 및 유저 토큰관리, 인기있는 문제, 베스트 면접 답변, 퀴즈 기능</div>
                     </div>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 Backend</div>
+                        <div className={styles["label"]}>• Backend</div>
                         <div className={styles["skill"]}>Springboot, NGINX</div>
                     </div>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 Frontend</div>
+                        <div className={styles["label"]}>• Frontend</div>
                         <div className={styles["skill"]}>React, javascript</div>
                     </div>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 Database</div>
+                        <div className={styles["label"]}>• Database</div>
                         <div className={styles["skill"]}>Mysql</div>
                     </div>
                   </div>
@@ -82,19 +82,19 @@ const Experience = () => {
                 <div className={styles["skill-stack"]}>
                   <div className={styles["label-box"]}>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 담당한 기능</div>
+                        <div className={styles["label"]}>• 담당한 기능</div>
                         <div className={styles["skill"]}>추천서비스 로직 구현</div>
                     </div>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 Backend</div>
+                        <div className={styles["label"]}>• Backend</div>
                         <div className={styles["skill"]}>Python, Flask</div>
                     </div>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 Frontend</div>
+                        <div className={styles["label"]}>• Frontend</div>
                         <div className={styles["skill"]}>html, css</div>
                     </div>
                     <div className={styles["skill-row"]}>
-                        <div className={styles["label"]}>📌 Database</div>
+                        <div className={styles["label"]}>• Database</div>
                         <div className={styles["skill"]}>mongoDB</div>
                     </div>
                   </div>

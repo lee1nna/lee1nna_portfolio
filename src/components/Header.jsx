@@ -1,6 +1,13 @@
+import { useState } from "react";
 import styles from "./Header.module.css";
 
 const Header = () => {
+  const [activeMenu, setActiveMenu] = useState(false);
+
+  const handleMenu = () => {
+    setActiveMenu(!activeMenu);
+  };
+
   return (
     <div className={styles["header"]}>
       <ul className={styles["header-ul"]}>
@@ -18,19 +25,30 @@ const Header = () => {
           <a href="#experience">
             <li className={styles["header-li"]}>Experience</li>
           </a>
-          <a href="#contact">
-            <li className={styles["header-li"]}>Contact</li>
+        </div>
+        <img
+          className={styles["hamburger"]}
+          src="/assets/hamburger.png"
+          alt=""
+          onClick={handleMenu}
+        />
+        <div
+          className={styles["burger-menu"]}
+          style={activeMenu ? { display: "block" } : { display: "none" }}
+        >
+          <a href="#about-me">
+            <div className={styles["burger-menu__item"]}>About Me</div>
+          </a>
+          <a href="#skill">
+            <div className={styles["burger-menu__item"]}>Skills</div>
+          </a>
+          <a href="#career">
+            <div className={styles["burger-menu__item"]}>Career</div>
+          </a>
+          <a href="#experience">
+            <div className={styles["burger-menu__item"]}>Experience</div>
           </a>
         </div>
-        <img className={styles["hamburger"]} src="/assets/hamburger.png" alt="" />
-        <div className={styles["burger-menu"]}>
-          <div className={styles["burger-menu__item"]}>About Me</div>
-          <div className={styles["burger-menu__item"]}>Skills</div>
-          <div className={styles["burger-menu__item"]}>Career</div>
-          <div className={styles["burger-menu__item"]}>Experience</div>
-          <div className={styles["burger-menu__item"]}>Contact</div>
-        </div>
-      
       </ul>
     </div>
   );

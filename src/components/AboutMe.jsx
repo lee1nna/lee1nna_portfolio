@@ -7,6 +7,9 @@ const AboutMe = () => {
         <div className="title">About Me.</div>
         <div className={styles["about-me-intro"]}>
           <div className={styles["about-me-icon__wrap"]}>
+            {/* <div className={styles["about-me-icon__gif"]}>
+
+            </div> */}
             <img
               className={styles["about-me__icon"]}
               src="/assets/my_icon.png"
@@ -15,14 +18,23 @@ const AboutMe = () => {
           </div>
 
           <div className={styles["intro-btn__wrap"]}>
-            <button className={styles["about-me-intro__btn"]}>이한나</button>
+            <button className={styles["about-me-intro__btn"]}>👩🏻‍💻 이한나</button>
             <button className={styles["about-me-intro__btn"]}>
-              1999.02.09
+              🎂 1999.02.09
             </button>
-            <button className={styles["about-me-intro__btn"]}>
-              dlgkssk0209@gmail.com
-            </button>
-            <button className={styles["about-me-intro__btn"]}>Github</button>
+            <a href="mailto:dlgkssk0209@gmail.com">
+              <button className={styles["about-me-intro__btn"]}>
+                💌 dlgkssk0209@gmail.com
+              </button>
+            </a>
+            <a href="tel:01067895305">
+              <button className={styles["about-me-intro__btn"]}>
+                📞 010-6789-5305
+              </button>
+            </a>
+            <a href="https://github.com/lee1nna" target="_blank">
+            <button className={styles["about-me-intro__btn"]}>📚 Github</button>
+            </a>
           </div>
         </div>
 
